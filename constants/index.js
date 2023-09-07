@@ -55,7 +55,7 @@ const services = [
         icon: backend,
     },
     {
-        title: "AI and Cybersecurity Enthusiast",
+        title: "AI and Cybersecurity Enthusiast!",
         icon: ai,
     },
     {
