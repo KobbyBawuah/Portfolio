@@ -2,6 +2,8 @@ import {
     mobile,
     ai,
     backend,
+    softmasters,
+    VRA,
     creator,
     web,
     javascript,
@@ -24,6 +26,7 @@ import {
     jobit,
     tripguide,
     threejs,
+    sentry,
 } from "../public/assets";
 
 export const navLinks = [
@@ -119,12 +122,13 @@ const experiences = [
     {
         title: "Support Engineer",
         company_name: "Sentry.io",
-        icon: starbucks,
-        iconBg: "#383E56",
+        icon: sentry,
+        // iconBg: "#383E56",
+        iconBg: "#E6DEDD",
         date: "August 2021 - Present",
         points: [
-            "Provide unique solutions to customer’s inbound technical requests regarding Sentry’s products and SDK’s",
-            "Develop tools and technical documentation to streamline the support experience",
+            "Provide unique solutions to customer’s inbound Engineering requests regarding Sentry’s products and SDK’s in 20 different programming languages",
+            "Develop tools and technical documentation to streamline the support experience for 3.5 million developers and 85,000 organizations",
             "Collaborate with cross-functional teams to escalate and resolve complex technical problems",
             "Assist in the installation, configuration, and maintenance of the Sentry software",
         ],
@@ -132,7 +136,7 @@ const experiences = [
     {
         title: "Industiral Hydro power Intern",
         company_name: "Volta River Authority(VRA)",
-        icon: tesla,
+        icon: VRA,
         iconBg: "#E6DEDD",
         date: "May 2018 - Jul 2018",
         points: [
@@ -143,9 +147,10 @@ const experiences = [
     },
     {
         title: "Web Developer Intern",
-        company_name: "SoftMasters Company",
-        icon: shopify,
-        iconBg: "#383E56",
+        company_name: "SoftMasters Company Limited",
+        icon: softmasters,
+        // iconBg: "#383E56",
+        iconBg: "#E6DEDD",
         date: "May 2017 - Jul 2017",
         points: [
             "Developed websites for private companies with the aim to increase their visibility using different programming codes such as HTML and CSS.",
@@ -154,8 +159,8 @@ const experiences = [
     },
     {
         title: "Software Developer Intern",
-        company_name: "SoftMasters Company",
-        icon: meta,
+        company_name: "SoftMasters Company Limited",
+        icon: softmasters,
         iconBg: "#E6DEDD",
         date: "Jun 2016 - Aug 2016",
         points: [

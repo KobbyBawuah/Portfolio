@@ -26,6 +26,10 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import sentry from "./company/sentry.svg";
+import VRA from "./company/VRA.png";
+import softmasters from "./company/softmasters.png";
+
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -33,6 +37,9 @@ import tripguide from "./tripguide.png";
 
 export {
   logo,
+  sentry,
+  softmasters,
+  VRA,
   ai,
   backend,
   creator,
