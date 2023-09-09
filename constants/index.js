@@ -1,4 +1,11 @@
 import {
+    api,
+    java,
+    next,
+    php,
+    python,
+    python1,
+    SQL,
     mobile,
     ai,
     backend,
@@ -70,11 +77,7 @@ const services = [
 const technologies = [
     {
         name: "Python",
-        icon: javascript,
-    },
-    {
-        name: "HTML 5",
-        icon: html,
+        icon: python1,
     },
     {
         name: "JavaScript",
@@ -86,11 +89,23 @@ const technologies = [
     },
     {
         name: "Java",
-        icon: typescript,
+        icon: java,
     },
     {
-        name: "React JS/Next.js",
+        name: "React JS",
         icon: reactjs,
+    },
+    {
+        name: "Next.js",
+        icon: next,
+    },
+    {
+        name: "HTML 5",
+        icon: html,
+    },
+    {
+        name: "CSS",
+        icon: css,
     },
     {
         name: "Tailwind CSS",
@@ -102,19 +117,19 @@ const technologies = [
     },
     {
         name: "SQL",
-        icon: mongodb,
+        icon: SQL,
     },
     {
         name: "PHP",
-        icon: css,
+        icon: php,
     },
     {
-        name: "git/GitHub",
+        name: "Git/GitHub",
         icon: git,
     },
     {
         name: "Rest APIs",
-        icon: docker,
+        icon: api,
     },
 ];
 

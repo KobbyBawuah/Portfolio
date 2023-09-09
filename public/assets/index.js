@@ -21,6 +21,13 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import api from "./tech/api.png";
+import java from "./tech/java.png";
+import next from "./tech/next-js.png";
+import php from "./tech/php.png";
+import python from "./tech/python.png";
+import python1 from "./tech/python1.png";
+import SQL from "./tech/SQl.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -37,6 +44,13 @@ import tripguide from "./tripguide.png";
 
 export {
   logo,
+  api,
+  java,
+  next,
+  php,
+  python,
+  python1,
+  SQL,
   sentry,
   softmasters,
   VRA,
