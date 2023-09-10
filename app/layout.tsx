@@ -18,11 +18,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <Head>
-        {/* Specify the path to your custom favicon */}
-        <link rel="icon" href="/favicon.ico" />
-        {/* Add other meta tags or links here if needed */}
-      </Head>
       <body className={inter.className}>{children}</body>
     </html>
   )
