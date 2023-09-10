@@ -25,7 +25,7 @@ const Computers = ({ isMobile }) => {
       <pointLight intensity={1} />
       <primitive
         object={gltf.scene}
-        scale={isMobile ? 1.2 : 2.0}
+        scale={isMobile ? 4.2 : 2.0}
         position={isMobile ? [0, -2.5, 0] : [0, -1.25, 0]}
         rotation={[0.35, 1.2, -0.33]}
       // object={gltf.scene}
@@ -66,7 +66,8 @@ const ComputersCanvas = () => {
       frameloop='demand'
       shadows
       dpr={[1, 2]}
-      camera={{ position: [20, 3, 5], fov: 25 }}
+      camera={{ position: [20, 3, 5], fov: 25 }
+      }
       gl={{ preserveDrawingBuffer: true }}
     >
       <Suspense fallback={<CanvasLoader />}>
@@ -76,6 +77,7 @@ const ComputersCanvas = () => {
           minPolarAngle={Math.PI / 2}
         />
         {!isMobile && <Computers isMobile={isMobile} />}
+        {/* <Computers isMobile={isMobile} /> */}
       </Suspense>
 
       <Preload all />
