@@ -9,7 +9,6 @@ import { useLoader } from "@react-three/fiber";
 import CanvasLoader from "../Loader";
 
 const Earth = () => {
-  const earth = useGLTF("./planet/scene.gltf");
   const gltf = useLoader(GLTFLoader, "/earth2/scene.gltf");
 
   return (
