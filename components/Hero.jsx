@@ -19,9 +19,9 @@ const Hero = () => {
             Hello, I'm <span className='text-[#915EFF]'>Kobby</span>
           </h1>
           <p className={`text-[#dfd9ff] font-medium lg:text-[25px] sm:text-[21px] xs:text-[18px] text-[16px] lg:leading-[40px] mt-2 text-white-100`}>
-            I develop applications to<br className='sm:block hidden' />
-            address everyday challenges whiles<br className='sm:block hidden' />
-            integrating cutting-edge technologies<br className='sm:block hidden' />
+            I develop applications to
+            address everyday challenges whiles
+            integrating cutting-edge technologies
             such as AI and Network Security
           </p>
         </div>
