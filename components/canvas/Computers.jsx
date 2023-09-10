@@ -25,8 +25,8 @@ const Computers = ({ isMobile }) => {
       <pointLight intensity={1} />
       <primitive
         object={gltf.scene}
-        scale={isMobile ? 1.8 : 2.0}
-        position={isMobile ? [0, -1.25, 0] : [0, -1.25, 0]}
+        scale={isMobile ? 1.2 : 2.0}
+        position={isMobile ? [0, -2.5, 0] : [0, -1.25, 0]}
         rotation={[0.35, 1.2, -0.33]}
       // object={gltf.scene}
       // scale={isMobile ? 0.7 : 0.75}

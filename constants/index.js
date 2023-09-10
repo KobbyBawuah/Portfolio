@@ -88,6 +88,10 @@ const technologies = [
         name: "JavaScript",
         icon: javascript,
     },
+    // {
+    //     name: "TypeScript",
+    //     icon: typescript,
+    // },
     {
         name: "Java",
         icon: java,
@@ -96,14 +100,22 @@ const technologies = [
         name: "React JS",
         icon: reactjs,
     },
+    // {
+    //     name: "Next.js",
+    //     icon: next,
+    // },
     {
         name: "HTML 5",
         icon: html,
     },
-    {
-        name: "Tailwind CSS",
-        icon: tailwind,
-    },
+    // {
+    //     name: "CSS",
+    //     icon: css,
+    // },
+    // {
+    //     name: "Tailwind CSS",
+    //     icon: tailwind,
+    // },
     {
         name: "Node JS",
         icon: nodejs,
