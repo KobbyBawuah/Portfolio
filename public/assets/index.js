@@ -27,7 +27,7 @@ import next from "./tech/next-js.png";
 import php from "./tech/php.png";
 import python from "./tech/python.png";
 import python1 from "./tech/python1.png";
-import SQL from "./tech/SQl.png";
+import SQL from "./tech/SQL.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
