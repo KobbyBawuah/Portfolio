@@ -1,0 +1,8 @@
+Model Information:
+* title:	Retro Computer Workstation
+* source:	https://sketchfab.com/3d-models/retro-computer-workstation-92321e28202f4449a7f9f2efeec6e20a
+* author:	tran.ha.anh.thu.99 (https://sketchfab.com/tran.ha.anh.thu.99)
+
+Model License:
+* license type:	SKETCHFAB Standard (https://sketchfab.com/licenses)
+* requirements:	Under basic restrictions, use worldwide, on all types of media, commercially or not, and in all types of derivative works

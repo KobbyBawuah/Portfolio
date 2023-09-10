@@ -8,10 +8,12 @@ import Education from './Education';
 import Works from './Works';
 import Feedbacks from './Feedbacks';
 import Contact from './Contact';
+import Modal from './Modal';
 
 export {
   Hero,
   Navbar,
+  Modal,
   Education,
   About,
   Tech,

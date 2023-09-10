@@ -1,4 +1,4 @@
-import React, { Suspense, useEffect, useState } from "react";
+import React, { Fragment, Suspense, useEffect, useState } from "react";
 import { Canvas } from "@react-three/fiber";
 
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
@@ -6,16 +6,19 @@ import { useLoader } from "@react-three/fiber";
 
 import { OrbitControls, Preload } from "@react-three/drei";
 
+import Modal from "../Modal";
+
 import CanvasLoader from "../Loader";
 
 const Computers = ({ isMobile }) => {
-  const gltf = useLoader(GLTFLoader, "/sci-fi_computer/scene.gltf");
+  const gltf = useLoader(GLTFLoader, "/retro/scene.gltf");
+  // const gltf = useLoader(GLTFLoader, "/sci-fi_computer/scene.gltf");
   // const gltf = useLoader(GLTFLoader, "/desktop_pc/scene.gltf");
   return (
     <mesh>
-      <hemisphereLight intensity={0.15} groundColor='black' />
+      <hemisphereLight intensity={8} groundColor='black' />
       <spotLight
-        position={[-20, 50, 10]}
+        position={[, 0,]}
         angle={0.12}
         penumbra={1}
         intensity={1}
@@ -25,8 +28,8 @@ const Computers = ({ isMobile }) => {
       <pointLight intensity={1} />
       <primitive
         object={gltf.scene}
-        scale={isMobile ? 4.2 : 2.0}
-        position={isMobile ? [0, -2.5, 0] : [0, -1.25, 0]}
+        scale={isMobile ? 4.2 : 11}
+        position={isMobile ? [0, -2.5, 0] : [0, -2.0, 0]}
         rotation={[0.35, 1.2, -0.33]}
       // object={gltf.scene}
       // scale={isMobile ? 0.7 : 0.75}
@@ -39,10 +42,11 @@ const Computers = ({ isMobile }) => {
 
 const ComputersCanvas = () => {
   const [isMobile, setIsMobile] = useState(false);
+  const [showModal, setShowModal] = useState(false);
 
   useEffect(() => {
     // Add a listener for changes to the screen size
-    const mediaQuery = window.matchMedia("(max-width: 500px)");
+    const mediaQuery = window.matchMedia("(max-width: 700px)");
 
     // Set the initial value of the `isMobile` state variable
     setIsMobile(mediaQuery.matches);
@@ -62,6 +66,9 @@ const ComputersCanvas = () => {
   }, []);
 
   return (
+    // <Fragment>
+    // {/* could implement model for small screen users that they do not get the full experience low p0*/ }
+    //   {/* <Modal isVisible={isMobile} onClose={() => { setShowModal(false) }} /> */ }
     <Canvas
       frameloop='demand'
       shadows
@@ -76,12 +83,14 @@ const ComputersCanvas = () => {
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}
         />
+        {/* {isMobile && <Modal/>} */}
         {!isMobile && <Computers isMobile={isMobile} />}
         {/* <Computers isMobile={isMobile} /> */}
       </Suspense>
 
       <Preload all />
     </Canvas>
+    // </Fragment>
   );
 };
 
