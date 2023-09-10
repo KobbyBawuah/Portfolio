@@ -12,9 +12,12 @@ export default function Home() {
   //   const userAgent = window.navigator.userAgent;
   //   const isChrome = /Chrome/.test(userAgent);
   //   const isSafari = /Safari/.test(userAgent) && !/Chrome/.test(userAgent);
+  //   console.log("1", isChrome)
   //   if (isChrome || isSafari) {
-  //     setIsChromeOrSafari(true);
+  //     setIsChromeOrSafari(true)
+  //     console.log("2", isChromeOrSafari)
   //   }
+  //   console.log("3", isChromeOrSafari)
   // }, []);
 
   return (
