@@ -15,11 +15,12 @@ export default function Home() {
         <Tech />
         <Works />
         <Education />
-        <Feedbacks />
+        {/* <Feedbacks /> */}
         <div className='relative z-0'>
           <Contact />
           <StarsCanvas />
         </div>
+        <div>game</div>
       </div>
     </div>
   )

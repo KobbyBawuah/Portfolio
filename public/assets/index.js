@@ -36,13 +36,23 @@ import tesla from "./company/tesla.png";
 import sentry from "./company/sentry.svg";
 import VRA from "./company/VRA.png";
 import softmasters from "./company/softmasters.png";
+import carleton from "./school/carleton.png";
+import umass from "./school/umass.png";
 
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import chat from "./chat.png";
+import trash from "./trash.png";
+import circuit from "./circuit.png";
 
 export {
+  carleton,
+  umass,
+  chat,
+  trash,
+  circuit,
   logo,
   api,
   java,

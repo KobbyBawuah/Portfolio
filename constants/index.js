@@ -1,4 +1,9 @@
 import {
+    carleton,
+    umass,
+    chat,
+    trash,
+    circuit,
     api,
     java,
     next,
@@ -185,14 +190,40 @@ const experiences = [
     },
 ];
 
+const education = [
+    {
+        degree: "Master of Science - MS",
+        school_name: "University of Massachusetts Amherst",
+        field_of_study: "Electrical and Computer Engineering",
+        icon: umass,
+        // iconBg: "#383E56",
+        iconBg: "#E6DEDD",
+        date: "September 2022 - Present",
+        points: [
+            "The Master of Science (MS) in Electrical & Computer Engineering (ECE) program is designed to prepare students for technically demanding careers in industry as well as for post-master’s graduate studies in electrical and/or computer engineering or related fields.",
+        ],
+    },
+    {
+        degree: "Bachelor of Engineering - BE",
+        school_name: "Carleton University",
+        field_of_study: "Electrical and Electronics Engineering",
+        icon: carleton,
+        iconBg: "#E6DEDD",
+        date: "Sep 2016 - May 2021",
+        points: [
+            "My bachelor's focus was on Electrical Engineering. My electives, however, involved Web Development, Wireless Communication, and Modelling of Integrated devices. Projects done involved software testing and development (Front-End and Back-End), Robotics, Verilog, and Data Analytics, to name a few.",
+        ],
+    },
+];
+
 const testimonials = [
     {
         testimonial:
-            "",
+            "Certainly was great having him on our team",
         name: "Ben ADU",
         designation: "CEO",
         company: "SoftMasters",
-        image: "https://randomuser.me/api/portraits/women/4.jpg",
+        image: softmasters,
     },
     {
         testimonial:
@@ -200,7 +231,7 @@ const testimonials = [
         name: "Akim Tijani",
         designation: "Plant Manager",
         company: "Volta River Authority(VRA)",
-        image: "https://randomuser.me/api/portraits/men/5.jpg",
+        image: softmasters,
     },
     {
         testimonial:
@@ -208,7 +239,7 @@ const testimonials = [
         name: "Kemi Koku",
         designation: "CEO",
         company: "K's Lashes Bar",
-        image: "https://randomuser.me/api/portraits/women/6.jpg",
+        image: softmasters,
     },
 ];
 
@@ -239,13 +270,13 @@ const projects = [
                 color: "green-text-gradient",
             },
         ],
-        image: carrent,
+        image: chat,
         source_code_link: "https://github.com/KobbyBawuah/Fullstack-Custom-AI-Chatbot",
     },
     {
         name: "Trash panda",
         description:
-            "This app is a waste categorization and management tool built using React. It provides a user interface for categorizing several types of waste (garbage, recycling, compost) and managing the selections made.",
+            "This simple app is a waste categorization and management tool built using React for my Office. It provides a user interface for categorizing several types of waste (garbage, recycling, compost) and managing the selections made.",
         tags: [
             {
                 name: "JavaScript",
@@ -260,7 +291,7 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: jobit,
+        image: trash,
         source_code_link: "https://github.com/KobbyBawuah/waste-flowchart",
     },
     {
@@ -282,12 +313,12 @@ const projects = [
             },
             {
                 name: "HTML 5",
-                color: "red-text-gradient",
+                color: "green-text-gradient",
             },
         ],
-        image: tripguide,
+        image: circuit,
         source_code_link: "https://github.com/KobbyBawuah/4thyearapp",
     },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, testimonials, education, projects };
