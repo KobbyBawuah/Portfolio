@@ -29,7 +29,7 @@ const Computers = ({ isMobile }) => {
       <primitive
         object={gltf.scene}
         scale={isMobile ? 4.2 : 11}
-        position={isMobile ? [0, -2.5, 0] : [0, -2.0, 0]}
+        position={isMobile ? [0, -2.5, 0] : [0, -3.0, 0]}
         rotation={[0.35, 1.2, -0.33]}
       // object={gltf.scene}
       // scale={isMobile ? 0.7 : 0.75}
@@ -46,7 +46,7 @@ const ComputersCanvas = () => {
 
   useEffect(() => {
     // Add a listener for changes to the screen size
-    const mediaQuery = window.matchMedia("(max-width: 700px)");
+    const mediaQuery = window.matchMedia("(max-width: 840px)");
 
     // Set the initial value of the `isMobile` state variable
     setIsMobile(mediaQuery.matches);

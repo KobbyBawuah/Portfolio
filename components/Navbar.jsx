@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { logo, menu, close } from "/assets";
+import { HiDownload } from "react-icons/hi";
 
 
 const Navbar = () => {
@@ -65,6 +66,17 @@ const Navbar = () => {
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
+          <li>
+            <a
+              className="group bg-white px-2 py-1 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
+              href="/Current_Resume.pdf"
+              download
+            >
+              Download CV{" "}
+              <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
+            </a>
+          </li>
+
         </ul>
 
         <div className='sm:hidden flex flex-1 justify-end items-center'>
@@ -93,10 +105,22 @@ const Navbar = () => {
                   <a href={`#${nav.id}`}>{nav.title}</a>
                 </li>
               ))}
+
+              <li>
+                <a
+                  className="group bg-white px-2 py-1 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
+                  href="/Current_Resume.pdf"
+                  download
+                >
+                  Download CV{" "}
+                  <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
+                </a>
+              </li>
             </ul>
           </div>
         </div>
       </div>
+
     </nav>
   )
 }
