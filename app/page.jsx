@@ -38,7 +38,7 @@ export default function Home() {
           {/* {!isChromeOrSafari && <StarsCanvas />} */}
           <StarsCanvas />
         </div>
-        <div>game</div>
+        {/* <div>game</div> */}
         {/* <button
           type="button"
           onClick={() => {
