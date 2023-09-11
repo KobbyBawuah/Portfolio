@@ -20,7 +20,7 @@ const Hero = () => {
           </h1>
           <p className={`text-[#dfd9ff] font-medium lg:text-[25px] sm:text-[21px] xs:text-[18px] text-[16px] lg:leading-[40px] mt-2 text-white-100`}>
             I develop applications to
-            address everyday challenges whiles
+            address everyday challenges whilst
             integrating cutting-edge technologies
             such as AI and Network Security
           </p>
