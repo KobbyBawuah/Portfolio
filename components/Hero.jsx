@@ -7,7 +7,7 @@ const Hero = () => {
     <section className='relative w-full h-screen mx-auto'>
       <div
         //can make is mx-auto below to recenter the text
-        className={`absolute inset-0 top-[100px] max-w-7xl mx-16 sm:px-16 px-6 flex flex-row items-start gap-5 inset-0 z-[1]`}
+        className={`absolute inset-0 top-[100px] max-w-7xl mx-auto sm:px-16 px-6 flex flex-row items-start gap-5 inset-0 z-[1]`}
       >
         <div className='flex flex-col justify-center items-center mt-5'>
           <div className='w-5 h-5 rounded-full bg-[#915EFF]' />
