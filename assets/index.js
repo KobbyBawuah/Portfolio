@@ -2,6 +2,7 @@ import logo from "./logo.svg";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
+import ai from "./ai.png";
 import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
@@ -20,18 +21,50 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import api from "./tech/api.png";
+import java from "./tech/java.png";
+import next from "./tech/next-js.png";
+import php from "./tech/php.png";
+import python from "./tech/python.png";
+import python1 from "./tech/python1.png";
+import SQL from "./tech/SQL.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import sentry from "./company/sentry.svg";
+import VRA from "./company/VRA.png";
+import softmasters from "./company/softmasters.png";
+import carleton from "./school/carleton.png";
+import umass from "./school/umass.png";
+
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import chat from "./chat.png";
+import trash from "./trash.png";
+import circuit from "./circuit.png";
 
 export {
+  carleton,
+  umass,
+  chat,
+  trash,
+  circuit,
   logo,
+  api,
+  java,
+  next,
+  php,
+  python,
+  python1,
+  SQL,
+  sentry,
+  softmasters,
+  VRA,
+  ai,
   backend,
   creator,
   mobile,

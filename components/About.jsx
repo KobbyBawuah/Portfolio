@@ -57,7 +57,7 @@ const About = () => {
         new concepts and my collaborative nature make me an ideal partner for
         clients and colleagues. I am dedicated to crafting effective, scalable,
         and user-friendly solutions that address real-world challenges.
-        Let's team up to transform your ideas into reality!
+        Let's team up to transform our ideas into reality!
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

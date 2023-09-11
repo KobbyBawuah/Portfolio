@@ -57,21 +57,17 @@ export const navLinks = [
 ];
 
 const services = [
+    // {
+    //     title: "Software Engineer",
+    //     icon: mobile,
+    // },
     {
-        title: "Software Engineer",
-        icon: mobile,
-    },
-    {
-        title: "Web Developer",
+        title: "Full stack Developer",
         icon: web,
     },
     {
-        title: "Backend Developer",
-        icon: backend,
-    },
-    {
         title: "AI and Cybersecurity Enthusiast",
-        icon: ai,
+        icon: backend,
     },
     {
         title: "Electrical and Computer Engineer",
@@ -104,10 +100,10 @@ const technologies = [
     //     name: "Next.js",
     //     icon: next,
     // },
-    {
-        name: "HTML 5",
-        icon: html,
-    },
+    // {
+    //     name: "HTML 5",
+    //     icon: html,
+    // },
     // {
     //     name: "CSS",
     //     icon: css,
@@ -124,10 +120,10 @@ const technologies = [
         name: "SQL",
         icon: SQL,
     },
-    {
-        name: "PHP",
-        icon: php,
-    },
+    // {
+    //     name: "PHP",
+    //     icon: php,
+    // },
     {
         name: "Git/GitHub",
         icon: git,
