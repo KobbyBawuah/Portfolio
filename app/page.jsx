@@ -56,8 +56,7 @@ export default function Home() {
         <Education />
         {/* <Feedbacks /> */}
         <div className='relative z-0'>
-          {console.log("from the skies->", isMobile)}
-          <Contact isMobile={isMobile} />
+          <Contact />
           {/* {!isChromeOrSafari && <StarsCanvas />} */}
           {!isMobile && <StarsCanvas />}
         </div>
