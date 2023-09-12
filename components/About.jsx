@@ -1,10 +1,10 @@
+'use client';
 import React from "react";
 import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 import Image from 'next/image'
 
 
-import { styles } from "../styles";
 import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
@@ -51,10 +51,10 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I am a proficient software engineer with a solid background in Python
-        and JavaScript and expertise in frameworks like such as React/Next.js,
+        I am a proficient software engineer with a solid background in Python,
+        JavaScript and I am competent in frameworks such as React/Next.js,
         Django/Flask, Express.js and React Native. My ability to quickly grasp
-        new concepts and my collaborative nature make me an ideal partner for
+        new concepts and my collaborative nature makes me an ideal partner for
         clients and colleagues. I am dedicated to crafting effective, scalable,
         and user-friendly solutions that address real-world challenges.
         Let's team up to transform our ideas into reality!

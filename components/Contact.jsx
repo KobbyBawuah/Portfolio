@@ -1,3 +1,4 @@
+'use client';
 import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
@@ -11,7 +12,7 @@ import { slideIn } from "../utils/motion";
 // service_91eous2
 // iAHL-tmb5P-wQIbSU
 
-const Contact = () => {
+const Contact = ({ isMobile }) => {
   const formRef = useRef();
   const [form, setForm] = useState({
     name: "",
@@ -127,12 +128,13 @@ const Contact = () => {
         </form>
       </motion.div>
 
-      <motion.div
+      {!isMobile && <motion.div
         variants={slideIn("right", "tween", 0.2, 1)}
         className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'
       >
         <EarthCanvas />
       </motion.div>
+      }
     </div>
   );
 };

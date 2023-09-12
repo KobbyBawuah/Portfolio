@@ -1,3 +1,4 @@
+'use client';
 import React, { Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
 import {
@@ -48,7 +49,7 @@ const Ball = (props) => {
 const BallCanvas = ({ icon, name }) => {
   return (
     <Canvas
-      frameloop='demand'
+      frameloop='always'
       dpr={[1, 2]}
       gl={{ preserveDrawingBuffer: true }}
     >

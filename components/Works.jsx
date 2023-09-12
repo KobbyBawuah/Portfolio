@@ -1,11 +1,11 @@
+'use client';
 import React from "react";
-import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 import Image from 'next/image'
 
 import { styles } from "../styles";
 
-import { github } from "../assets";
+import { github } from "../public/assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
@@ -92,7 +92,7 @@ const Works = () => {
       </div>
 
 
-      <div className='mt-20 flex flex-wrap gap-7'>
+      <div className='mt-20 flex items-center flex-wrap gap-7'>
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
